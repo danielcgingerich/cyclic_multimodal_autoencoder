@@ -14,7 +14,7 @@ import random
 import copy
 from sklearn.preprocessing import StandardScaler
 
-os.chdir('C:/Users/danie/Desktop/african_american_multiome/data/19.apoe_ccres/')
+os.chdir('path/to/data/')
 
 X0 = pd.read_csv('7.export_for_model___atac_train.csv', index_col = 0)
 X0 = X0.sample(n=10000, random_state=42)
